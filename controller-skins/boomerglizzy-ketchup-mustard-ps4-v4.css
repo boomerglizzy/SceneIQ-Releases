@@ -1,0 +1,20 @@
+/* BoomerGlizzy GamepadViewer PS4 skin v4
+   Based on the working controller-background replacement method used by
+   schoettner and UncleClapton. No pseudo-element and no position changes.
+   Choose PlayStation 4 (White) in GamepadViewer. */
+.controller.ds4.edit,
+.controller.ds4.white.edit,
+.controller.edit.ds4 {
+  background-image: url("https://cdn.jsdelivr.net/gh/boomerglizzy/SceneIQ-Releases@f3b8366915e83241a044d6e1394a8412e5a6442e/controller-skins/boomerglizzy-ps4-base.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+  background-size: 100% 100% !important;
+}
+/* Keep native clickable/moving controls fully available. */
+.ds4.edit .stick.pressed,
+.ds4.edit .face.pressed,
+.ds4.edit .button.pressed,
+.ds4.edit .trigger.pressed,
+.ds4.edit .bumper.pressed {
+ filter:brightness(1.35) drop-shadow(0 0 5px #ffd100);
+}

@@ -2,6 +2,8 @@
    Based on the working controller-background replacement method used by
    schoettner and UncleClapton. No pseudo-element and no position changes.
    Choose PlayStation 4 (White) in GamepadViewer. */
+.edit .controller.ds4,
+.controller.ds4.white,
 .controller.ds4.edit,
 .controller.ds4.white.edit,
 .controller.edit.ds4 {
